@@ -13,7 +13,6 @@
 		748CFF0D23D3E5A700069B2A /* guitarTuningWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 748CFF0C23D3E5A700069B2A /* guitarTuningWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		748CFF1223D3E5A700069B2A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748CFF1123D3E5A700069B2A /* InterfaceController.swift */; };
 		748CFF1423D3E5A700069B2A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748CFF1323D3E5A700069B2A /* ExtensionDelegate.swift */; };
-		748CFF1623D3E5A700069B2A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748CFF1523D3E5A700069B2A /* NotificationController.swift */; };
 		748CFF1823D3E5A900069B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF1723D3E5A900069B2A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +67,6 @@
 		748CFF0C23D3E5A700069B2A /* guitarTuningWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "guitarTuningWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		748CFF1123D3E5A700069B2A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		748CFF1323D3E5A700069B2A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		748CFF1523D3E5A700069B2A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		748CFF1723D3E5A900069B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748CFF1923D3E5A900069B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		748CFF1A23D3E5A900069B2A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 			children = (
 				748CFF1123D3E5A700069B2A /* InterfaceController.swift */,
 				748CFF1323D3E5A700069B2A /* ExtensionDelegate.swift */,
-				748CFF1523D3E5A700069B2A /* NotificationController.swift */,
 				748CFF1723D3E5A900069B2A /* Assets.xcassets */,
 				748CFF1923D3E5A900069B2A /* Info.plist */,
 				748CFF1A23D3E5A900069B2A /* PushNotificationPayload.apns */,
@@ -254,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				748CFF1623D3E5A700069B2A /* NotificationController.swift in Sources */,
 				748CFF1423D3E5A700069B2A /* ExtensionDelegate.swift in Sources */,
 				748CFF1223D3E5A700069B2A /* InterfaceController.swift in Sources */,
 			);

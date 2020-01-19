@@ -1,17 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ygi-XR-RJM">
     <device id="watch38"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
-        <scene sceneID="aou-V4-d1y">
+        <!--Guitar Tuning Controller-->
+        <scene sceneID="6i5-yj-cXE">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="guitarTuningWatch_WatchKit_App" customModuleProvider="target"/>
+                <controller id="ygi-XR-RJM" customClass="GuitarTuningController" customModule="guitarTuningWatch_WatchKit_Extension">
+                    <items>
+                        <textField width="136" alignment="center" text="GuitarTuning" id="Dqp-9U-vYQ">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textField>
+                        <imageView alignment="center" image="guitar" id="bKW-3d-WVo"/>
+                        <button width="1" alignment="left" title="E" id="NTa-gX-JBE">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="EButtonPressed" destination="ygi-XR-RJM" id="xzQ-Zj-9QA"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="A" id="KEM-a6-fpW">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="AButtonPressed" destination="ygi-XR-RJM" id="yZo-q5-1G5"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="D" id="eSw-FO-r8d">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="DButtonPressed" destination="ygi-XR-RJM" id="EXZ-Ic-aTD"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="G" id="F2N-GF-hE6">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="GButtonPressed" destination="ygi-XR-RJM" id="9cO-6e-0nc"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="B" id="PAO-ag-GJi">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="BbuttonPressed" destination="ygi-XR-RJM" id="po8-tX-aft"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="e" id="VNT-IC-bxF">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="eButtonPressed" destination="ygi-XR-RJM" id="1KL-zr-F6A"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="1" green="0.75399525106468501" blue="0.11653672311739893" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="223" y="364"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="guitar" width="156" height="128"/>
+    </resources>
 </document>

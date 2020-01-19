@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		748CFEFE23D3E5A100069B2A /* guitarTuningWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 748CFEFD23D3E5A100069B2A /* guitarTuningWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		748CFEFE23D3E5A100069B2A /* guitarTuningWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 748CFEFD23D3E5A100069B2A /* guitarTuningWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		748CFF0423D3E5A100069B2A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF0223D3E5A100069B2A /* Interface.storyboard */; };
 		748CFF0623D3E5A700069B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF0523D3E5A700069B2A /* Assets.xcassets */; };
 		748CFF0D23D3E5A700069B2A /* guitarTuningWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 748CFF0C23D3E5A700069B2A /* guitarTuningWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		748CFF1223D3E5A700069B2A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748CFF1123D3E5A700069B2A /* InterfaceController.swift */; };
 		748CFF1423D3E5A700069B2A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748CFF1323D3E5A700069B2A /* ExtensionDelegate.swift */; };
 		748CFF1823D3E5A900069B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF1723D3E5A900069B2A /* Assets.xcassets */; };
+		748CFF2923D3F87700069B2A /* GuitarTuningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748CFF2823D3F87700069B2A /* GuitarTuningController.swift */; };
+		748CFF3023D3FA6A00069B2A /* guitarG.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF2A23D3FA6A00069B2A /* guitarG.mp3 */; };
+		748CFF3123D3FA6A00069B2A /* guitarG.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF2A23D3FA6A00069B2A /* guitarG.mp3 */; };
+		748CFF3223D3FA6A00069B2A /* guitarHighE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF2B23D3FA6A00069B2A /* guitarHighE.mp3 */; };
+		748CFF3323D3FA6A00069B2A /* guitarHighE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF2B23D3FA6A00069B2A /* guitarHighE.mp3 */; };
+		748CFF3423D3FA6A00069B2A /* guitarA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF2C23D3FA6A00069B2A /* guitarA.mp3 */; };
+		748CFF3523D3FA6A00069B2A /* guitarA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF2C23D3FA6A00069B2A /* guitarA.mp3 */; };
+		748CFF3623D3FA6A00069B2A /* guitarB.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF2D23D3FA6A00069B2A /* guitarB.mp3 */; };
+		748CFF3723D3FA6A00069B2A /* guitarB.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF2D23D3FA6A00069B2A /* guitarB.mp3 */; };
+		748CFF3823D3FA6A00069B2A /* guitarD.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF2E23D3FA6A00069B2A /* guitarD.mp3 */; };
+		748CFF3923D3FA6A00069B2A /* guitarD.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF2E23D3FA6A00069B2A /* guitarD.mp3 */; };
+		748CFF3A23D3FA6A00069B2A /* guitarE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF2F23D3FA6A00069B2A /* guitarE.mp3 */; };
+		748CFF3B23D3FA6A00069B2A /* guitarE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 748CFF2F23D3FA6A00069B2A /* guitarE.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +64,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				748CFEFE23D3E5A100069B2A /* guitarTuningWatch WatchKit App.app in Embed Watch Content */,
+				748CFEFE23D3E5A100069B2A /* guitarTuningWatch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,7 +73,7 @@
 
 /* Begin PBXFileReference section */
 		748CFEF923D3E5A100069B2A /* guitarTuningWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guitarTuningWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		748CFEFD23D3E5A100069B2A /* guitarTuningWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "guitarTuningWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		748CFEFD23D3E5A100069B2A /* guitarTuningWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guitarTuningWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748CFF0323D3E5A100069B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		748CFF0523D3E5A700069B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748CFF0723D3E5A700069B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,7 +82,13 @@
 		748CFF1323D3E5A700069B2A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		748CFF1723D3E5A900069B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748CFF1923D3E5A900069B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		748CFF1A23D3E5A900069B2A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		748CFF2823D3F87700069B2A /* GuitarTuningController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarTuningController.swift; sourceTree = "<group>"; };
+		748CFF2A23D3FA6A00069B2A /* guitarG.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitarG.mp3; sourceTree = "<group>"; };
+		748CFF2B23D3FA6A00069B2A /* guitarHighE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitarHighE.mp3; sourceTree = "<group>"; };
+		748CFF2C23D3FA6A00069B2A /* guitarA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitarA.mp3; sourceTree = "<group>"; };
+		748CFF2D23D3FA6A00069B2A /* guitarB.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitarB.mp3; sourceTree = "<group>"; };
+		748CFF2E23D3FA6A00069B2A /* guitarD.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitarD.mp3; sourceTree = "<group>"; };
+		748CFF2F23D3FA6A00069B2A /* guitarE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitarE.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				748CFEF923D3E5A100069B2A /* guitarTuningWatch.app */,
-				748CFEFD23D3E5A100069B2A /* guitarTuningWatch WatchKit App.app */,
+				748CFEFD23D3E5A100069B2A /* guitarTuningWatch.app */,
 				748CFF0C23D3E5A700069B2A /* guitarTuningWatch WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -117,9 +136,15 @@
 			children = (
 				748CFF1123D3E5A700069B2A /* InterfaceController.swift */,
 				748CFF1323D3E5A700069B2A /* ExtensionDelegate.swift */,
+				748CFF2C23D3FA6A00069B2A /* guitarA.mp3 */,
+				748CFF2D23D3FA6A00069B2A /* guitarB.mp3 */,
+				748CFF2E23D3FA6A00069B2A /* guitarD.mp3 */,
+				748CFF2F23D3FA6A00069B2A /* guitarE.mp3 */,
+				748CFF2A23D3FA6A00069B2A /* guitarG.mp3 */,
+				748CFF2B23D3FA6A00069B2A /* guitarHighE.mp3 */,
 				748CFF1723D3E5A900069B2A /* Assets.xcassets */,
 				748CFF1923D3E5A900069B2A /* Info.plist */,
-				748CFF1A23D3E5A900069B2A /* PushNotificationPayload.apns */,
+				748CFF2823D3F87700069B2A /* GuitarTuningController.swift */,
 			);
 			path = "guitarTuningWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -158,7 +183,7 @@
 			);
 			name = "guitarTuningWatch WatchKit App";
 			productName = "guitarTuningWatch WatchKit App";
-			productReference = 748CFEFD23D3E5A100069B2A /* guitarTuningWatch WatchKit App.app */;
+			productReference = 748CFEFD23D3E5A100069B2A /* guitarTuningWatch.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		748CFF0B23D3E5A700069B2A /* guitarTuningWatch WatchKit Extension */ = {
@@ -232,7 +257,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				748CFF0623D3E5A700069B2A /* Assets.xcassets in Resources */,
+				748CFF3623D3FA6A00069B2A /* guitarB.mp3 in Resources */,
+				748CFF3A23D3FA6A00069B2A /* guitarE.mp3 in Resources */,
+				748CFF3023D3FA6A00069B2A /* guitarG.mp3 in Resources */,
+				748CFF3423D3FA6A00069B2A /* guitarA.mp3 in Resources */,
+				748CFF3223D3FA6A00069B2A /* guitarHighE.mp3 in Resources */,
 				748CFF0423D3E5A100069B2A /* Interface.storyboard in Resources */,
+				748CFF3823D3FA6A00069B2A /* guitarD.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +271,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748CFF3323D3FA6A00069B2A /* guitarHighE.mp3 in Resources */,
+				748CFF3923D3FA6A00069B2A /* guitarD.mp3 in Resources */,
+				748CFF3B23D3FA6A00069B2A /* guitarE.mp3 in Resources */,
+				748CFF3723D3FA6A00069B2A /* guitarB.mp3 in Resources */,
+				748CFF3123D3FA6A00069B2A /* guitarG.mp3 in Resources */,
+				748CFF3523D3FA6A00069B2A /* guitarA.mp3 in Resources */,
 				748CFF1823D3E5A900069B2A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748CFF2923D3F87700069B2A /* GuitarTuningController.swift in Sources */,
 				748CFF1423D3E5A700069B2A /* ExtensionDelegate.swift in Sources */,
 				748CFF1223D3E5A700069B2A /* InterfaceController.swift in Sources */,
 			);
@@ -400,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = XQZ4S6PXLM;
 				INFOPLIST_FILE = "guitarTuningWatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -407,7 +446,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.guitarTuningWatch.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.guitartuningwatch.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -422,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = XQZ4S6PXLM;
 				INFOPLIST_FILE = "guitarTuningWatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -429,7 +469,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.guitarTuningWatch.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.guitartuningwatch.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -445,11 +485,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = XQZ4S6PXLM;
 				IBSC_MODULE = guitarTuningWatch_WatchKit_Extension;
 				INFOPLIST_FILE = "guitarTuningWatch WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.guitarTuningWatch.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.guitartuningwatch.watchkitapp;
+				PRODUCT_NAME = guitarTuningWatch;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -464,11 +505,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = XQZ4S6PXLM;
 				IBSC_MODULE = guitarTuningWatch_WatchKit_Extension;
 				INFOPLIST_FILE = "guitarTuningWatch WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.guitarTuningWatch.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.guitartuningwatch.watchkitapp;
+				PRODUCT_NAME = guitarTuningWatch;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -484,7 +526,7 @@
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = XQZ4S6PXLM;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.guitarTuningWatch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.guitartuningwatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -497,7 +539,7 @@
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = XQZ4S6PXLM;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.guitarTuningWatch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.guitartuningwatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
